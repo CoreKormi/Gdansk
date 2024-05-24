@@ -35,7 +35,7 @@
 }
 
 body {
-    background-color: #97BC62;
+    background-color: white;
 }
 
 body.places {
@@ -84,11 +84,14 @@ a.button {
     text-align: center;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    flex: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-#topmenu a {
+.elements {
     background-color: white;
+
 }
 
 .homeimage {
@@ -143,11 +146,11 @@ a.button {
     color: white;
 }
 
-
 a {
     color: black;
     text-decoration: none;
 }
+
 .image {
     margin: 1em auto;
     display: block;
