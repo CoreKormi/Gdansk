@@ -27,21 +27,8 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.highlight {
-    background-color: #2C5F2D;
-    padding: 1px;
-    border-radius: 3px;
-    color: white;
-}
-
 body {
     background-color: white;
-}
-
-body.places {
-    display: grid;
-    grid-template-columns: 300px 1fr;
-    gap: 30px;
 }
 
 .black-border {
@@ -49,36 +36,6 @@ body.places {
     border-radius: 10px;
 }
 
-a.button {
-    display: block;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    padding: 0.5em;
-    font-size: 130%;
-}
-
-#search {
-    width: 100%;
-    padding: 0.5em;
-    font-size: 130%;
-    box-sizing: border-box;
-}
-
-#menu {
-    background-color: #2C5F2D;
-    padding: 1em;
-    margin-top: 1em;
-}
-
-#menu a {
-    margin: 1em;
-    background-color: #97BC62;
-}
-
-#menu a.active {
-    background-color: #00a2e8;
-}
 
 #topmenu {
     text-align: center;
@@ -92,6 +49,7 @@ a.button {
 .elements {
     background-color: #395A72;
     border: 3px solid black;
+    font-size: 150%;
     border-radius: 10px;
     color: white;
 }
@@ -115,6 +73,7 @@ a.button {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     text-align: center;
+    margin-top: 3%;
 }
 
 .selecting {
@@ -134,16 +93,6 @@ a.button {
     font-family: 'Times New Roman', Times, serif;
 }
 
-#category-description {
-    display: none;
-    margin-top: 1em;
-    padding: 1em;
-    background-color: #2C5F2D;
-    color: white;
-    font-size: 140%;
-    font-family: 'Times New Roman', Times, serif;
-}
-
 #white {
     color: white;
 }
@@ -154,7 +103,16 @@ a {
 }
 
 .image {
-    margin: 1em auto;
-    display: block;
-    width: 60%;
+    width: 40%;
 }
+
+.textpile {
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
