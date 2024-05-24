@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: lightgray;
 }
 
 .black-border {
@@ -46,10 +46,6 @@ body {
     margin: 1em auto;
     text-align: center;
     margin-top: 2%;
-}
-
-#white {
-    color: white;
 }
 
 .image {
