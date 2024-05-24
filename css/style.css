@@ -90,8 +90,10 @@ a.button {
 }
 
 .elements {
-    background-color: white;
-
+    background-color: #395A72;
+    border: 3px solid black;
+    border-radius: 10px;
+    color: white;
 }
 
 .homeimage {
